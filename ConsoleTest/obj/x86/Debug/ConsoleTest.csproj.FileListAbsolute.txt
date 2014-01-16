@@ -1,0 +1,14 @@
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ConsoleTest\bin\Debug\ConsoleTest.exe
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ConsoleTest\bin\Debug\ConsoleTest.pdb
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ConsoleTest\obj\x86\Debug\ConsoleTest.exe
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ConsoleTest\obj\x86\Debug\ConsoleTest.pdb
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\ConsoleTest\bin\Debug\ChessLogicModels.dll
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\ConsoleTest\bin\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\bin\Debug\ConsoleTest.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\bin\Debug\ConsoleTest.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\bin\Debug\ChessLogicModels.dll
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\bin\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\obj\x86\Debug\ConsoleTest.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ConsoleTest\obj\x86\Debug\ConsoleTest.pdb

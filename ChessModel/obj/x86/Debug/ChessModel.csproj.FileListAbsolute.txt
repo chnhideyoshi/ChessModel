@@ -1,0 +1,30 @@
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\bin\Debug\ChessModel.exe
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\bin\Debug\ChessModel.pdb
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\MainWindow.baml
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\MainWindow.g.cs
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\App.g.cs
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\ChessModel_MarkupCompile.cache
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\ChessModel.g.resources
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\ChessModel.Properties.Resources.resources
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\ChessModel.exe
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessModel\obj\x86\Debug\ChessModel.pdb
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\ChessModel\bin\Debug\ChessLogicModels.dll
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\ChessModel\bin\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\ChessModel.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\ChessModel.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\MainWindow.baml
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\MainWindow.g.cs
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\App.g.cs
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\ChessModel_MarkupCompile.cache
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\ChessModel.g.resources
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\ChessModel.Properties.Resources.resources
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\bin\Debug\ChessModel.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\bin\Debug\ChessModel.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\bin\Debug\ChessLogicModels.dll
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessModel\bin\Debug\ChessLogicModels.pdb

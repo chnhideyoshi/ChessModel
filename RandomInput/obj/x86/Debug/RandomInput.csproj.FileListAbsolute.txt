@@ -1,0 +1,10 @@
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\RandomInput\bin\Debug\RandomInput.exe
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\RandomInput\bin\Debug\RandomInput.pdb
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\RandomInput\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\RandomInput\obj\x86\Debug\RandomInput.exe
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\RandomInput\obj\x86\Debug\RandomInput.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\RandomInput\bin\Debug\RandomInput.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\RandomInput\bin\Debug\RandomInput.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\RandomInput\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\RandomInput\obj\x86\Debug\RandomInput.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\RandomInput\obj\x86\Debug\RandomInput.pdb

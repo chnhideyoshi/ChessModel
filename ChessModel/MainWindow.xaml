@@ -1,0 +1,132 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ChessModel.MainWindow"
+        Title="OthelloChess" Height="343" Width="653" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+	<Window.Resources>
+		<Style x:Key="WhiteUnitStyle" TargetType="Rectangle">
+			<Setter Property="Stroke" Value="Black"/>
+			<Setter Property="Fill" Value="White"/>
+			<Setter Property="StrokeThickness" Value="1"/>
+			<Setter Property="RadiusY" Value="3"/>
+			<Setter Property="RadiusX" Value="3"/>
+			<Setter Property="Width" Value="30"/>
+			<Setter Property="Height" Value="30"/>
+		</Style>
+		<Style x:Key="BlackUnitStyle" TargetType="Rectangle">
+			<Setter Property="Stroke" Value="Black"/>
+			<Setter Property="Fill" Value="Black"/>
+			<Setter Property="StrokeThickness" Value="1"/>
+			<Setter Property="RadiusY" Value="3"/>
+			<Setter Property="RadiusX" Value="3"/>
+			<Setter Property="Width" Value="30"/>
+			<Setter Property="Height" Value="30"/>
+		</Style>
+	</Window.Resources>
+	<Canvas>
+		<Grid x:Name="GD_Lines"  Width="300" Height="300" Canvas.Left="8" Canvas.Top="6" Background="#FFFFCE87">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+			</Grid.ColumnDefinitions>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="1"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="2"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="3"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="4"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="5"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="6"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="7"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="8"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="9"/>
+			<Line X2="310" StrokeThickness="1" Grid.ColumnSpan="10" Stroke="Black" Grid.Row="10" Y1="30" Y2="30"/>
+			
+			
+			<Line StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Y2="300"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="1"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="2"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="3"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="4"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="5"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="6"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="7"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="8"/>
+			<Line Y2="300" StrokeThickness="1" Grid.RowSpan="10" Stroke="Black" Grid.Column="9"/>
+			<Line Y2="300" StrokeThickness="2" Grid.RowSpan="10" Stroke="Black" Grid.Column="10" X1="30" X2="30"/>
+			
+			<Border Name="BD_HOVERBlack" BorderThickness="0" Background="Black" CornerRadius="8" Opacity="0.635" Grid.Column="3" Visibility="Hidden"/>
+			<Border Name="BD_HOVERWhite" BorderThickness="0" Background="White" CornerRadius="8" Opacity="0.76" Grid.Column="4" Visibility="Hidden"/>
+		</Grid>
+		<Grid x:Name="GD_MainContainner"  Width="300" Height="300" Canvas.Left="8" Canvas.Top="6" Background="#00FFCE87">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+				<RowDefinition Height="0.1*"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+				<ColumnDefinition Width="0.1*"/>
+			</Grid.ColumnDefinitions>
+		   
+			
+		</Grid>
+		<Canvas x:Name="CA_TouchPad" Background="#00000000" Canvas.Left="8" Canvas.Top="6" Width="300" Height="300"/>
+		<Rectangle x:Name="RecBlack" Stroke="Black" StrokeThickness="1" Fill="Black" RadiusY="3" RadiusX="3" Canvas.Left="326.5" Canvas.Top="27" Width="30" Height="30"/>
+		<Rectangle Stroke="#FF1B1B1B" StrokeThickness="1" Fill="White" RadiusY="3" RadiusX="3" Grid.Row="1" Grid.Column="1" Width="30" Height="30" Canvas.Left="326.5" Canvas.Top="61"/>
+		<TextBlock x:Name="TBK_BlackCount" Canvas.Left="376.5" TextWrapping="Wrap" Text="0" Canvas.Top="33.25"/>
+		<TextBlock x:Name="TBK_WhiteCount" Canvas.Left="376.5" TextWrapping="Wrap" Text="0" Canvas.Top="69"/>
+		<Button x:Name="BTN_Restart" Content="Restart" Canvas.Left="326.166" Canvas.Top="275.163" Width="57.371" Height="30.837"/>
+        <TextBox x:Name="TBK_Message" Height="122.667" Canvas.Left="326.166" TextWrapping="Wrap" Canvas.Top="133" Width="124.834" IsReadOnly="True"/>
+        <GroupBox x:Name="GB_Setting" Header="PlayerSetting" Height="288" Canvas.Left="467" Canvas.Top="8" Width="172">
+        	<Canvas>
+        		<ComboBox x:Name="TB_BlackFilePath" Height="23.337" Canvas.Left="8" Canvas.Top="86" Width="145.5"/>
+        		<ComboBox x:Name="TB_WhiteFilePath" Height="23.337" Canvas.Left="8"  Canvas.Top="233.826" Width="144"/>
+        		<TextBlock Height="20.337" Canvas.Left="12.166" TextWrapping="Wrap" Canvas.Top="2.826" Text="Black:"/>
+        		<TextBlock Height="20.337" Canvas.Left="8" TextWrapping="Wrap" Canvas.Top="148.337" Text="White:"/>
+				<Line X2="151" Stroke="#FF8B8B8B" Y1="131" Y2="131" X1="5"/>
+        		<RadioButton x:Name="RB_BlackManual" Content="manual" Height="18" Canvas.Left="8" Canvas.Top="36.163" Width="64.5" GroupName="BlackGroup" IsChecked="True"/>
+        		<RadioButton x:Name="RB_BlackAi" Content="AI" Height="18" Canvas.Left="89" Canvas.Top="36.163" Width="64.5" GroupName="BlackGroup" IsChecked="True"/>
+        		<RadioButton x:Name="RB_WhiteManual" Content="manual" Height="18" Canvas.Left="8" Canvas.Top="172.674" Width="64.5" GroupName="WhiteGroup" IsChecked="True"/>
+        		<RadioButton x:Name="RB_WhiteAi" Content="AI" Height="18" Canvas.Left="89" Canvas.Top="172.674" Width="64.5" GroupName="WhiteGroup"/>
+        		<TextBlock Height="20.337" Canvas.Left="12.166" TextWrapping="Wrap" Canvas.Top="61.663" Text="ChooseAI:"/>
+        		<TextBlock Height="20.337" Canvas.Left="14.6" TextWrapping="Wrap" Canvas.Top="209.489" Text="ChooseAI:"/></Canvas>
+        </GroupBox>
+        <TextBlock Height="22" Canvas.Left="326.166" TextWrapping="Wrap" Canvas.Top="107" Width="72.834"><Run Language="zh-cn" Text="Messages:"/></TextBlock>
+        <Button x:Name="BTN_Apply" Content="Apply" Canvas.Left="393.629" Canvas.Top="275.163" Width="57.371" Height="30.837"/>
+    </Canvas>
+</Window>

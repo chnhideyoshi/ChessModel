@@ -1,0 +1,10 @@
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessLogicModels\obj\Debug\ResolveAssemblyReference.cache
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessLogicModels\bin\Debug\ChessLogicModels.dll
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessLogicModels\bin\Debug\ChessLogicModels.pdb
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessLogicModels\obj\Debug\ChessLogicModels.dll
+c:\users\chnhideyoshi\documents\visual studio 2010\Projects\ChessModel\ChessLogicModels\obj\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessLogicModels\bin\Debug\ChessLogicModels.dll
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessLogicModels\bin\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessLogicModels\obj\Debug\ResolveAssemblyReference.cache
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessLogicModels\obj\Debug\ChessLogicModels.dll
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\ChessLogicModels\obj\Debug\ChessLogicModels.pdb

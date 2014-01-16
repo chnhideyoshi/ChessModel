@@ -1,0 +1,14 @@
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\bin\Debug\MyInput.exe
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\bin\Debug\MyInput.pdb
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\obj\x86\Debug\MyInput.exe
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\obj\x86\Debug\MyInput.pdb
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\bin\Debug\ChessLogicModels.dll
+C:\Users\chnhideyoshi\Documents\Visual Studio 2010\Projects\ChessModel\MyInput\bin\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\bin\Debug\MyInput.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\bin\Debug\MyInput.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\bin\Debug\ChessLogicModels.dll
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\bin\Debug\ChessLogicModels.pdb
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\obj\x86\Debug\MyInput.exe
+F:\workspacecsharp\WPF_Sliverlight\ChessModel\MyInput\obj\x86\Debug\MyInput.pdb
